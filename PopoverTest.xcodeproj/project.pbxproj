@@ -21,6 +21,7 @@
 		D9FE735B189CC2D90051A23B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FE733D189CC2D90051A23B /* UIKit.framework */; };
 		D9FE7363189CC2D90051A23B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9FE7361189CC2D90051A23B /* InfoPlist.strings */; };
 		D9FE7365189CC2D90051A23B /* PopoverTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FE7364189CC2D90051A23B /* PopoverTestTests.m */; };
+		D9FE7370189CCACF0051A23B /* PopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FE736F189CCACF0051A23B /* PopoverBackgroundView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D9FE7360189CC2D90051A23B /* PopoverTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopoverTestTests-Info.plist"; sourceTree = "<group>"; };
 		D9FE7362189CC2D90051A23B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9FE7364189CC2D90051A23B /* PopoverTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopoverTestTests.m; sourceTree = "<group>"; };
+		D9FE736E189CCACF0051A23B /* PopoverBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverBackgroundView.h; sourceTree = "<group>"; };
+		D9FE736F189CCACF0051A23B /* PopoverBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverBackgroundView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				D9FE734B189CC2D90051A23B /* Main.storyboard */,
 				D9FE734E189CC2D90051A23B /* ViewController.h */,
 				D9FE734F189CC2D90051A23B /* ViewController.m */,
+				D9FE736E189CCACF0051A23B /* PopoverBackgroundView.h */,
+				D9FE736F189CCACF0051A23B /* PopoverBackgroundView.m */,
 				D9FE7351189CC2D90051A23B /* Images.xcassets */,
 				D9FE7340189CC2D90051A23B /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				D9FE7350189CC2D90051A23B /* ViewController.m in Sources */,
 				D9FE734A189CC2D90051A23B /* AppDelegate.m in Sources */,
+				D9FE7370189CCACF0051A23B /* PopoverBackgroundView.m in Sources */,
 				D9FE7346189CC2D90051A23B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

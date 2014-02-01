@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "PopoverBackgroundView.h"
+
 @interface ViewController ()
 {
   UIPopoverController *_messageBalloonPopoverController;
@@ -23,7 +25,7 @@
     messageBalloonViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MessageBalloonViewController"];
     messageBalloonViewController.view.backgroundColor = [UIColor clearColor];
     _messageBalloonPopoverController = [[UIPopoverController alloc] initWithContentViewController:messageBalloonViewController];
-    _messageBalloonPopoverController.backgroundColor = [UIColor clearColor];
+    _messageBalloonPopoverController.popoverBackgroundViewClass = [PopoverBackgroundView class];
   }
   return _messageBalloonPopoverController;
 }
